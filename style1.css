@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    width: 350px;
+    height: 530px;
+    background-color: rgb(209, 181, 181);
+    margin: 20px auto;
+    padding-top: 50px;
+    box-shadow: 5px 10px 30px rgb(68, 66, 61);
+    border-radius: 5px;
+}
+.img{
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px 100px;
+    filter: drop-shadow(0 0 15px rgba(243, 5, 5, 0.952));
+}
+.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px auto;
+    text-align: center;
+    color: rgba(243, 5, 5, 0.952);
+}
+.parrafo{
+    text-align: center;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+}
+.boton{
+    background-color: rgba(243, 5, 5, 0.952);
+    color: rgb(252, 250, 249);
+    font-weight: bold;
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin: 5px auto;
+    text-decoration: none;
+    border-radius: 5px;
+}
